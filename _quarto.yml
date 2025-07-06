@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+  
+# Meta
+description-meta: "Web personal de Santiago Ortúzar"
+author-meta: "Santiago Ortúzar"
+
+website:
+  title: "sortuzar"
+  navbar:
+    background: light  # You can change the background color here
+    left:
+      - href: index.qmd
+        text: Inicio
+      - href: publications.qmd
+        text: Publicaciones
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    date-modified: today
+    lang: es
+    toc: true
+    footnotes-hover: true
+    code-copy: true
+    code-link: true
+    code-overflow: wrap
+    fig-align: center
+    link-external-icon: false
+    link-external-newwindow: true
+
+editor: source
