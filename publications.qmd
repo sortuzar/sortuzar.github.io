@@ -1,0 +1,10 @@
+---
+title: "Publicaciones"
+format: html
+bibliography: "files/references/references.bib"
+nocite: |
+  @* 
+---
+
+::: {#refs}
+:::

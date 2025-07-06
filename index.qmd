@@ -1,0 +1,24 @@
+---
+title: "Santiago Ortúzar"
+subtitle: "(web personal)"
+description-meta: "Sociólogo y magíster en sociología"
+image: "files/profile/20250706_154721.jpg"
+page-navigation: false
+toc: false
+sidebar: false
+page-layout: full
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 50%
+---
+
+:::{#hero-heading}
+
+Sociólogo (2013-2017) y magíster en sociología (2020-2021).
+
+Página web en desarrollo.
+
+Correo electrónico: sa.ortuzar@gmail.com
+
+:::
