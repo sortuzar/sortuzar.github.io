@@ -1,10 +1,44 @@
 ---
 title: "Publicaciones"
 format: html
-bibliography: "files/references/references.bib"
+filters:
+  - multibib
+validate-yaml: false
+bibliography: 
+  articulos-arbitrados: files/references/articulos-arbitrados.bib
+  capitulos-libro: files/references/capitulos-libro.bib
+  resenas: files/references/reseñas.bib
+  tesis: files/references/tesis.bib
+  documentos-tecnicos: files/references/documentos-tecnicos.bib
+  otros: files/references/otros.bib
 nocite: |
   @* 
 ---
 
-::: {#refs}
+## Artículos arbitrados en revistas científicas
+::: {#refs-articulos-arbitrados}
+:::
+
+## Capítulos de libro
+::: {#refs-capitulos-libro}
+:::
+
+## Reseñas
+::: {#refs-resenas}
+:::
+
+## Tesis
+::: {#refs-tesis}
+:::
+
+## Documentación técnica
+
+### INE: II Encuesta Nacional sobre Uso del Tiempo (II ENUT)
+Se destacan los documentos en que contribuí de manera sustancial en conjunto con otros integrantes del equipo técnico II ENUT
+
+::: {#refs-documentos-tecnicos}
+:::
+
+## Otros
+::: {#refs-otros}
 :::
